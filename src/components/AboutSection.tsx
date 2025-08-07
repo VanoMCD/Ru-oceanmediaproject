@@ -7,26 +7,28 @@ const AboutSection = () => {
   const advantages = [
     {
       icon: <Award className="h-6 w-6" />,
-      title: "Высочайшее качество",
-      description: "4K и 8K разрешение для идеальной картинки"
+      title: "HD качество с AI улучшением",
+      description: "Оригинальный контент с возможностью AI-улучшения качества"
     },
     {
       icon: <Globe className="h-6 w-6" />,
-      title: "Глобальные права",
-      description: "Полные авторские права на весь контент"
+      title: "Полные коммерческие права",
+      description: "Лицензии для продажи, аренды или эксклюзивных сделок"
     },
     {
       icon: <Zap className="h-6 w-6" />,
-      title: "Быстрая доставка",
-      description: "Мгновенная передача цифровых файлов"
+      title: "Водная тематика",
+      description: "Специализация на подводных мирах и водных пейзажах"
     }
   ];
 
   const features = [
-    "Авторский контент с доказательствами легальности",
-    "RAW-файлы и портфолио на Pond5, Shutterstock, Adobe Stock",
-    "Индивидуальная адаптация: озвучка, музыка, субтитры",
-    "Сотни часов профессиональной съемки"
+    "Подводные миры (кораллы, морская живность)",
+    "Кайтбординг и водные виды спорта", 
+    "Водопады, реки, водные пейзажи",
+    "Океаны, моря, водные потоки",
+    "Полные коммерческие права на весь контент",
+    "Гибкие условия с мультиязычной поддержкой"
   ];
 
   return (
@@ -36,8 +38,8 @@ const AboutSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">О нас</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ocean Media Group — команда профессионалов, создающая высококачественный видеоконтент 
-              с уникальными кадрами подводного мира, дикой природы и городских пейзажей.
+              Ocean Media Group — тысячи часов уникального контента, сфокусированного на водной тематике: 
+              подводные миры, кайтбординг, водопады и океаны для коммерческого использования.
             </p>
           </div>
 
@@ -54,8 +56,8 @@ const AboutSection = () => {
               <div>
                 <h3 className="text-2xl font-bold text-primary mb-4">Наша миссия</h3>
                 <p className="text-muted-foreground text-lg">
-                  Предоставлять уникальный видеоконтент для различных сфер бизнеса, 
-                  помогая создавать атмосферу релаксации и профессионализма.
+                  Идеально для ТВ, Digital Signage, отелей, SPA, клиник и других коммерческих 
+                  пространств для улучшения атмосферы и привлечения клиентов.
                 </p>
               </div>
               
@@ -86,7 +88,7 @@ const AboutSection = () => {
 
           {/* Features */}
           <div className="bg-card rounded-xl p-8 shadow-ocean">
-            <h3 className="text-2xl font-bold text-primary mb-6 text-center">Доказательства легальности</h3>
+            <h3 className="text-2xl font-bold text-primary mb-6 text-center">Наш контент включает</h3>
             <div className="grid md:grid-cols-2 gap-4">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start space-x-3">

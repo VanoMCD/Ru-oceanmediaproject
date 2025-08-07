@@ -37,20 +37,20 @@ const ContactSection = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      content: "info@oceanmediagroup.com",
-      action: "mailto:info@oceanmediagroup.com"
+      content: "o666699999@gmail.com",
+      action: "mailto:o666699999@gmail.com"
     },
     {
       icon: <MessageCircle className="h-6 w-6" />,
-      title: "WhatsApp / Telegram",
-      content: "+7 (XXX) XXX-XX-XX",
-      action: "https://wa.me/7XXXXXXXXXX"
+      title: "WhatsApp / Viber / Telegram",
+      content: "+381 66 66 999 99",
+      action: "https://wa.me/38166699999"
     },
     {
       icon: <Globe className="h-6 w-6" />,
       title: "Веб-сайт",
-      content: "oceanmediagroup.com",
-      action: "https://oceanmediagroup.com"
+      content: "oceanmediaproject.com",
+      action: "https://oceanmediaproject.com"
     }
   ];
 
