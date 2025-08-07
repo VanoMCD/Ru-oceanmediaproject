@@ -1,10 +1,7 @@
 import { Waves } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="bg-gradient-deep text-primary-foreground py-12">
+  return <footer className="bg-gradient-deep text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
@@ -36,8 +33,8 @@ const Footer = () => {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold">Контакты</h4>
               <div className="space-y-2 text-sm text-primary-foreground/80">
-                <div>Email: info@oceanmediagroup.com</div>
-                <div>WhatsApp/Telegram: +7 (XXX) XXX-XX-XX</div>
+                <div>Email: o666699999@gmail.com</div>
+                <div>WhatsApp/Telegram: +381 66 66 999 99</div>
                 <div>Сайт: oceanmediagroup.com</div>
               </div>
             </div>
@@ -59,8 +56,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
