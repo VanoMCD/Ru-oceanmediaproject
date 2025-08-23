@@ -18,14 +18,16 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float">
-          OCEAN MEDIA GROUP
+          🌊 OCEAN MEDIA GROUP
         </h1>
         <h2 className="text-xl md:text-3xl mb-8 text-primary-foreground/90 font-light">
-          ПРЕМИУМ AMBIENT ВИДЕО ДЛЯ КОММЕРЧЕСКОГО ЛИЦЕНЗИРОВАНИЯ И B2B ИСПОЛЬЗОВАНИЯ
+          НОВОЕ ИЗМЕРЕНИЕ ВИДЕО: RELAX И AMBIENT КОНТЕНТ ДЛЯ ВАШЕГО БИЗНЕСА
         </h2>
-        <p className="text-lg md:text-xl mb-12 text-primary-foreground/80 max-w-3xl mx-auto">
-          Тысячи часов уникального контента с водной тематикой и полными коммерческими правами
-        </p>
+        <div className="text-lg md:text-xl mb-12 text-primary-foreground/80 max-w-3xl mx-auto space-y-2">
+          <p>📌 Профессиональная видеотека с глобальными правами</p>
+          <p>📌 Уникальные видео подводного и окружающего мира</p>
+          <p>📌 Контент для TV, Digital Signage, рекламы, SPA, отелей и других сфер</p>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 

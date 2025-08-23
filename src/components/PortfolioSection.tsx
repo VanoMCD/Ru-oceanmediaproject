@@ -28,31 +28,54 @@ const PortfolioSection = () => {
     videoCount: "80+ видео",
     preview: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500&h=300&fit=crop"
   }];
-  const formats = [{
-    name: "4K Ultra HD",
-    specs: "3840 × 2160"
+  const platforms = [{
+    name: "📺 YouTube-канал",
+    link: "https://www.youtube.com/@OceanMediaProject",
+    description: "Качественный контент для просмотра"
   }, {
-    name: "8K Ultra HD",
-    specs: "7680 × 4320"
+    name: "📺 Rutube-канал", 
+    link: "https://rutube.ru/channel/61735052/",
+    description: "Российская видеоплатформа"
   }, {
-    name: "Различные FPS",
-    specs: "24, 30, 60 fps"
+    name: "🎞️ Shutterstock",
+    link: "#",
+    description: "Премиум-контент для профессионалов"
   }, {
-    name: "Профессиональные кодеки",
-    specs: "ProRes, H.264, H.265"
+    name: "🎥 Pond5",
+    link: "#", 
+    description: "Videodive, Videoton, Vmsartstudio619"
+  }, {
+    name: "📽 Adobe Stock",
+    link: "#",
+    description: "Качественный контент для креативных проектов"
+  }, {
+    name: "🌍 Getty Images",
+    link: "#",
+    description: "Эксклюзивные видеоматериалы"
   }];
   return <section id="portfolio" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Каталог</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">🔍 ГДЕ УЖЕ МОЖНО ПОСМОТРЕТЬ НАШ КОНТЕНТ?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Исследуйте нашу коллекцию профессионального видеоконтента высочайшего качества
+              Подписывайтесь и наслаждайтесь качественным контентом!
             </p>
             
-            {/* Format Info */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-              {formats.map((format, index) => {})}
+            {/* Platforms Info */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+              {platforms.map((platform, index) => (
+                <a 
+                  key={index} 
+                  href={platform.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-card border border-accent/20 rounded-lg p-4 text-center hover:border-accent/40 transition-colors duration-300 group"
+                >
+                  <div className="font-semibold text-primary group-hover:text-accent transition-colors">{platform.name}</div>
+                  <div className="text-sm text-muted-foreground">{platform.description}</div>
+                </a>
+              ))}
             </div>
           </div>
 

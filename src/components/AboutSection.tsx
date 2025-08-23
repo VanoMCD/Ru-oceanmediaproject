@@ -36,10 +36,12 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">О нас</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">✨ КТО МЫ</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ocean Media Group — тысячи часов уникального контента, сфокусированного на водной тематике: 
-              подводные миры, кайтбординг, водопады и океаны для коммерческого использования.
+              🌊 Ocean Media Group – команда профессионалов, создающая эксклюзивный видеоконтент для бизнеса и медиа
+            </p>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
+              🎥 Наши операторы – мастера съемочного процесса, отбирающие лучшие кадры и превращающие часы видеоматериала в минуты завораживающего контента
             </p>
           </div>
 
@@ -54,19 +56,13 @@ const AboutSection = () => {
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-4">Наша миссия</h3>
-                <p className="text-muted-foreground text-lg">
-                  Идеально для ТВ, Digital Signage, отелей, SPA, клиник и других коммерческих 
-                  пространств для улучшения атмосферы и привлечения клиентов.
-                </p>
-              </div>
-              
-              <div>
-                <h3 className="text-2xl font-bold text-primary mb-4">Наша команда</h3>
-                <p className="text-muted-foreground text-lg">
-                  Мы — команда профессионалов. Наши операторы — не просто видеооператоры, 
-                  а настоящие режиссеры, которые создают по-настоящему ценный контент.
-                </p>
+                <h3 className="text-2xl font-bold text-primary mb-4">ЧТО МЫ ПРЕДЛАГАЕМ?</h3>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground">✅ <strong>Готовый видео-контент</strong> – сотни часов профессиональной съёмки</p>
+                  <p className="text-muted-foreground">✅ <strong>Любые виды лицензий и сроки</strong></p>
+                  <p className="text-muted-foreground">✅ <strong>Разрешение HD, FHD, 2K…</strong></p>
+                  <p className="text-muted-foreground">✅ <strong>Индивидуальная адаптация</strong> – наложение звука, авторской музыки, мультиязычная озвучка с использованием ИИ и т.д.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -86,22 +82,55 @@ const AboutSection = () => {
             ))}
           </div>
 
-          {/* Features */}
-          <div className="bg-card rounded-xl p-8 shadow-ocean">
-            <h3 className="text-2xl font-bold text-primary mb-6 text-center">Наш контент включает</h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              {features.map((feature, index) => (
-                <div key={index} className="flex items-start space-x-3">
-                  <CheckCircle className="h-5 w-5 text-accent mt-1 flex-shrink-0" />
-                  <span className="text-muted-foreground">{feature}</span>
-                </div>
-              ))}
+          {/* Content Categories */}
+          <div className="bg-gradient-ocean rounded-xl p-8 text-primary-foreground mb-8">
+            <h3 className="text-2xl font-bold mb-6 text-center">📹 ОСНОВА НАШЕЙ ВИДЕОТЕКИ:</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="space-y-3">
+                <p><strong>Подводный мир:</strong> коралловые рифы, уникальные рыбы и подводные обитатели</p>
+                <p><strong>Прибрежные виды:</strong> умиротворяющие виды водных видов спорта и яхт</p>
+              </div>
+              <div className="space-y-3">
+                <p><strong>Природные красоты:</strong> леса, реки, водопады</p>
+                <p><strong>Уникальные события:</strong> захватывающие кадры салютов и фейерверков</p>
+              </div>
             </div>
-            <div className="flex flex-wrap gap-2 mt-6 justify-center">
-              <Badge variant="secondary">Pond5</Badge>
-              <Badge variant="secondary">Shutterstock</Badge>
-              <Badge variant="secondary">Adobe Stock</Badge>
-              <Badge variant="secondary">Getty Images</Badge>
+          </div>
+
+          {/* Our Content Types */}
+          <div className="bg-card rounded-xl p-8 shadow-ocean">
+            <h3 className="text-2xl font-bold text-primary mb-6 text-center">МЫ ПРЕДЛАГАЕМ</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <div className="text-center p-4">
+                <div className="text-2xl mb-2">🧘</div>
+                <p className="font-semibold text-primary">Relaxation videos</p>
+                <p className="text-sm text-muted-foreground">визуальные практики для отдыха и восстановления</p>
+              </div>
+              <div className="text-center p-4">
+                <div className="text-2xl mb-2">☯️</div>
+                <p className="font-semibold text-primary">Zen videos</p>
+                <p className="text-sm text-muted-foreground">атмосфера спокойствия и медитации</p>
+              </div>
+              <div className="text-center p-4">
+                <div className="text-2xl mb-2">🌿</div>
+                <p className="font-semibold text-primary">Wellness visuals</p>
+                <p className="text-sm text-muted-foreground">для SPA, йоги и оздоровительных центров</p>
+              </div>
+              <div className="text-center p-4">
+                <div className="text-2xl mb-2">🎶</div>
+                <p className="font-semibold text-primary">Soothing visuals</p>
+                <p className="text-sm text-muted-foreground">фоновая эстетика для гармоничной атмосферы</p>
+              </div>
+              <div className="text-center p-4">
+                <div className="text-2xl mb-2">🌌</div>
+                <p className="font-semibold text-primary">Ambient videos</p>
+                <p className="text-sm text-muted-foreground">универсальный контент для Digital Signage и ТВ</p>
+              </div>
+              <div className="text-center p-4">
+                <div className="text-2xl mb-2">🌍</div>
+                <p className="font-semibold text-primary">Nature relaxation films</p>
+                <p className="text-sm text-muted-foreground">пейзажи, природа, элементы</p>
+              </div>
             </div>
           </div>
         </div>

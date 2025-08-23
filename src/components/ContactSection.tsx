@@ -49,8 +49,8 @@ const ContactSection = () => {
     {
       icon: <Globe className="h-6 w-6" />,
       title: "Веб-сайт",
-      content: "oceanmediaproject.com",
-      action: "https://oceanmediaproject.com"
+      content: "www.oceanmediaproject.com",
+      action: "https://www.oceanmediaproject.com"
     }
   ];
 
@@ -165,7 +165,7 @@ const ContactSection = () => {
                   <CardContent className="p-6">
                     <h4 className="text-xl font-bold mb-2">Готовы начать?</h4>
                     <p className="mb-4 opacity-90">
-                      Подберем и подготовим контент под ваш бизнес!
+                      📩 Свяжитесь с нами — подберем и подготовим контент под Ваш бизнес!
                     </p>
                     <Button 
                       variant="outline" 
