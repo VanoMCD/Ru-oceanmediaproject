@@ -25,17 +25,17 @@ const Footer = () => {
                 <a href="#about" className="text-primary-foreground/80 hover:text-accent transition-colors">О нас</a>
                 <a href="#portfolio" className="text-primary-foreground/80 hover:text-accent transition-colors">Каталог</a>
                 <a href="#clients" className="text-primary-foreground/80 hover:text-accent transition-colors">Для кого</a>
-                <a href="#contact" className="text-primary-foreground/80 hover:text-accent transition-colors">Контакты</a>
               </nav>
             </div>
 
             {/* Contact Info */}
             <div className="space-y-4">
-              <h4 className="text-lg font-semibold">Контакты</h4>
+              <h4 className="text-lg font-semibold">Свяжитесь с нами</h4>
               <div className="space-y-2 text-sm text-primary-foreground/80">
-                <div>Email: o666699999@gmail.com</div>
-                <div>WhatsApp/Telegram: +381 66 66 999 99</div>
-                <div>Сайт: oceanmediagroup.com</div>
+                <div>📧 Email: o666699999@gmail.com</div>
+                <div>📱 WhatsApp/Telegram: +381 66 66 999 99</div>
+                <div>🌍 Сайт: www.oceanmediaproject.com</div>
+                <div>💼 LinkedIn: <a href="https://linkedin.com/in/oceanmediaproject" className="hover:text-accent transition-colors">Ocean Media Project</a></div>
               </div>
             </div>
           </div>

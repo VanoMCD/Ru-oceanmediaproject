@@ -10,7 +10,6 @@ const Navigation = () => {
     { href: "#about", label: "О нас" },
     { href: "#portfolio", label: "Каталог" },
     { href: "#clients", label: "Для кого" },
-    { href: "#contact", label: "Контакты" },
   ];
 
   return (
