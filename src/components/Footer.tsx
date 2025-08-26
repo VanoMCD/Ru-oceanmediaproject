@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Waves className="h-8 w-8 text-accent animate-ocean-wave" />
-                <span className="text-xl font-bold">OCEAN MEDIA GROUP</span>
+                <span className="text-xl font-bold">OCEAN MEDIA PROJECT</span>
               </div>
               <p className="text-primary-foreground/80 text-sm">
                 Профессиональный видеоконтент высочайшего качества для вашего бизнеса. 
@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="border-t border-primary-foreground/20 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/60">
               <div>
-                © {currentYear} Ocean Media Group. Все права защищены.
+                © {currentYear} Ocean Media Project. Все права защищены.
               </div>
               <div className="flex flex-wrap gap-4 justify-center md:justify-end mt-4 md:mt-0 text-xs">
                 <a href="https://www.youtube.com/@OceanMediaProject" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">YouTube</a>
