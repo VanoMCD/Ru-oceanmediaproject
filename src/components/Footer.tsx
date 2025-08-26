@@ -4,7 +4,7 @@ const Footer = () => {
   return <footer className="bg-gradient-deep text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Logo and Description */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Navigation Links */}
+            {/* Navigation Links - Centered */}
             <div className="space-y-4 flex flex-col items-center">
               <h4 className="text-lg font-semibold">Навигация</h4>
               <nav className="flex flex-col space-y-2 text-sm text-center">
@@ -26,17 +26,6 @@ const Footer = () => {
                 <a href="#portfolio" className="text-primary-foreground/80 hover:text-accent transition-colors">Каталог</a>
                 <a href="#clients" className="text-primary-foreground/80 hover:text-accent transition-colors">Для кого</a>
               </nav>
-            </div>
-
-            {/* Stock Platforms */}
-            <div className="space-y-4">
-              <h4 className="text-lg font-semibold">Стоковые платформы</h4>
-              <div className="space-y-2 text-sm text-primary-foreground/80">
-                <div><a href="https://stock.adobe.com/contributor/205029892/videodive" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Adobe Stock</a></div>
-                <div><a href="https://istockphoto.com/ru/portfolio/VIDEODIVE?assettype=film" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">iStockphoto</a></div>
-                <div><a href="https://pond5.com/artist/vmsartstudio619" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Pond5</a></div>
-                <div><a href="https://shutterstock.com/ru/g/vmsartstudio/video?rid=371249757" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Shutterstock</a></div>
-              </div>
             </div>
 
             {/* Contact Info */}
