@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Award, Globe, Zap } from "lucide-react";
 import teamImage from "@/assets/about-team.jpg";
-import oceanCameraIcon from "@/assets/ocean-camera-icon.png";
 
 const AboutSection = () => {
   const advantages = [
@@ -38,12 +37,9 @@ const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">✨ КТО МЫ</h2>
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <img src={oceanCameraIcon} alt="Ocean Media Project Logo" className="w-8 h-8" />
-              <p className="text-xl text-muted-foreground max-w-3xl">
-                Ocean Media Project – команда профессионалов, создающая эксклюзивный видеоконтент для бизнеса и медиа
-              </p>
-            </div>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Ocean Media Project – команда профессионалов, создающая эксклюзивный видеоконтент для бизнеса и медиа
+            </p>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
               🎥 Наши операторы – мастера съемочного процесса, отбирающие лучшие кадры и превращающие часы видеоматериала в минуты завораживающего контента
             </p>

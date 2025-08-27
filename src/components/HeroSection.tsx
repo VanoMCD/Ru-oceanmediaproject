@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Play, ArrowDown } from "lucide-react";
 import heroImage from "@/assets/hero-underwater.jpg";
-import oceanCameraIcon from "@/assets/ocean-camera-icon.png";
 
 const HeroSection = () => {
   return (
@@ -18,12 +17,9 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto">
-        <div className="flex items-center justify-center gap-4 mb-6">
-          <img src={oceanCameraIcon} alt="Ocean Media Project Logo" className="w-16 h-16 md:w-20 md:h-20" />
-          <h1 className="text-5xl md:text-7xl font-bold animate-float">
-            OCEAN MEDIA PROJECT
-          </h1>
-        </div>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float">
+          OCEAN MEDIA PROJECT
+        </h1>
         <h2 className="text-xl md:text-3xl mb-8 text-primary-foreground/90 font-light">
           НОВОЕ ИЗМЕРЕНИЕ ВИДЕО: RELAX И AMBIENT КОНТЕНТ ДЛЯ ВАШЕГО БИЗНЕСА
         </h2>
