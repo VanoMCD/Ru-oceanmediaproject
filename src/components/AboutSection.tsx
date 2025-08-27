@@ -67,20 +67,6 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Advantages */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {advantages.map((advantage, index) => (
-              <Card key={index} className="text-center shadow-ocean hover:shadow-depth transition-all duration-300 border-accent/20">
-                <CardContent className="pt-8">
-                  <div className="text-accent mb-4 flex justify-center">
-                    {advantage.icon}
-                  </div>
-                  <h4 className="text-xl font-semibold text-primary mb-2">{advantage.title}</h4>
-                  <p className="text-muted-foreground">{advantage.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
 
           {/* Content Categories */}
           <div className="bg-gradient-ocean rounded-xl p-8 text-primary-foreground mb-8">
