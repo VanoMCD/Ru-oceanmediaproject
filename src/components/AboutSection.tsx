@@ -59,7 +59,7 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-bold text-primary mb-4">ЧТО МЫ ПРЕДЛАГАЕМ?</h3>
                 <div className="space-y-3">
                   <p className="text-muted-foreground">✅ <strong>Готовый видео-контент</strong> – сотни часов релакс роликов и 24/7 стрим</p>
-                  <p className="text-muted-foreground">✅ <strong>Любые виды лицензий и сроки</strong> – сотни часов релакс роликов и 24/7 стрим</p>
+                  <p className="text-muted-foreground">✅ <strong>Любые виды лицензий и сроки</strong> – зарабатывайте, не думая о правовых рисках</p>
                   <p className="text-muted-foreground">✅ <strong>Разрешение HD, FHD, 2K…</strong> – возможности есть, вопрос договоренностей</p>
                   <p className="text-muted-foreground">✅ <strong>Индивидуальная адаптация</strong> – наложение звука, музыки, речи, текста</p>
                 </div>
