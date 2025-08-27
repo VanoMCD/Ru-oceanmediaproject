@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, Award, Globe, Zap } from "lucide-react";
+import { CheckCircle, Award, Globe, Zap, Fish, Sailboat, Trees, Sparkles } from "lucide-react";
 import teamImage from "@/assets/about-team.jpg";
 
 const AboutSection = () => {
@@ -72,13 +72,25 @@ const AboutSection = () => {
           <div className="bg-gradient-ocean rounded-xl p-8 text-primary-foreground mb-8">
             <h3 className="text-2xl font-bold mb-6 text-center">📹 ОСНОВА НАШЕЙ ВИДЕОТЕКИ:</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                <p><strong>Подводный мир:</strong> коралловые рифы, уникальные рыбы и подводные обитатели</p>
-                <p><strong>Прибрежные виды:</strong> умиротворяющие виды водных видов спорта и яхт</p>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Fish className="h-5 w-5 text-accent" />
+                  <p><strong>Подводный мир:</strong> коралловые рифы, уникальные рыбы и подводные обитатели</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Sailboat className="h-5 w-5 text-accent" />
+                  <p><strong>Прибрежные виды:</strong> умиротворяющие виды водных видов спорта и яхт</p>
+                </div>
               </div>
-              <div className="space-y-3">
-                <p><strong>Природные красоты:</strong> леса, реки, водопады</p>
-                <p><strong>Уникальные события:</strong> захватывающие кадры салютов и фейерверков</p>
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <Trees className="h-5 w-5 text-accent" />
+                  <p><strong>Природные красоты:</strong> леса, реки, водопады</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Sparkles className="h-5 w-5 text-accent" />
+                  <p><strong>Уникальные события:</strong> захватывающие кадры салютов и фейерверков</p>
+                </div>
               </div>
             </div>
           </div>
