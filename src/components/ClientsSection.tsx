@@ -105,24 +105,6 @@ const ClientsSection = () => {
             ))}
           </div>
 
-          {/* Benefits Section */}
-          <div className="bg-card rounded-xl p-8 shadow-ocean mb-16">
-            <h3 className="text-2xl font-bold text-primary mb-6 text-center">Почему выбирают нас</h3>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">4K/8K</div>
-                <div className="text-sm text-muted-foreground">Качество изображения</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">Часов контента</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent mb-2">100%</div>
-                <div className="text-sm text-muted-foreground">Авторские права</div>
-              </div>
-            </div>
-          </div>
 
           {/* Call to Action */}
           <div className="text-center bg-gradient-deep rounded-xl p-12 text-primary-foreground">
