@@ -89,7 +89,7 @@ const PortfolioSection = () => {
           </div>
 
           {/* Content Types Section */}
-          <div className="mb-16">
+          <div>
             <h3 className="text-3xl font-bold text-primary text-center mb-8">Направления нашего контента</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {contentTypes.map((content, index) => (
@@ -108,16 +108,6 @@ const PortfolioSection = () => {
             </div>
           </div>
 
-          {/* Call to Action */}
-          <div className="text-center bg-gradient-ocean rounded-xl p-12 text-primary-foreground">
-            <h3 className="text-3xl font-bold mb-4">Готовы увидеть больше?</h3>
-            <p className="text-xl mb-8 opacity-90">
-              Сотни часов профессиональной съемки ждут вас в нашем полном каталоге
-            </p>
-            <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              Запросить полный каталог
-            </Button>
-          </div>
         </div>
       </div>
     </section>;
