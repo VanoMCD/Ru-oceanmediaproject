@@ -37,8 +37,8 @@ const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">КТО МЫ</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Ocean Media Project – команда профессионалов, создающая эксклюзивный видеоконтент для бизнеса и медиа
+            <p className="text-xl max-w-3xl mx-auto mb-6 font-medium">
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-bold">Ocean Media Project</span> <span className="text-foreground">– команда профессионалов, создающая эксклюзивный видеоконтент для бизнеса и медиа</span>
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
               🎥 Наши операторы-постановщики ловят лучшие кадры, а режиссеры монтажа превращают их в цельную историю, где часы съёмок складываются в минуты уникального завораживающего видео.
