@@ -4,9 +4,9 @@ const Footer = () => {
   return <footer className="bg-gradient-deep text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 mb-8">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
             {/* Logo and Description */}
-            <div className="space-y-4">
+            <div className="space-y-4 max-w-md">
               <div className="flex items-center space-x-2">
                 <Waves className="h-8 w-8 text-accent animate-ocean-wave" />
                 <span className="text-xl font-bold">OCEAN MEDIA PROJECT</span>
