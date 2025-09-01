@@ -88,25 +88,6 @@ const PortfolioSection = () => {
             </div>
           </div>
 
-          {/* Content Types Section */}
-          <div>
-            <h3 className="text-3xl font-bold text-primary text-center mb-8">Направления нашего контента</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {contentTypes.map((content, index) => (
-                <a 
-                  key={index}
-                  href="https://www.youtube.com/@OceanMediaProject"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                   className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
-                >
-                  <div className="text-2xl mb-2">{content.emoji}</div>
-                  <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">{content.title}</h4>
-                  <p className="text-muted-foreground text-xs">{content.description}</p>
-                </a>
-              ))}
-            </div>
-          </div>
 
         </div>
       </div>

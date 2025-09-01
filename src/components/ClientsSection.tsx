@@ -128,6 +128,73 @@ const ClientsSection = () => {
               </Button>
             </div>
           </div>
+
+          {/* Content Types Section */}
+          <div className="mt-20">
+            <h3 className="text-3xl font-bold text-primary text-center mb-8">Направления нашего контента</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <a 
+                href="https://www.youtube.com/@OceanMediaProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
+              >
+                <div className="text-2xl mb-2">🧘</div>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Relaxation videos</h4>
+                <p className="text-muted-foreground text-xs">визуальные практики для отдыха и восстановления</p>
+              </a>
+              <a 
+                href="https://www.youtube.com/@OceanMediaProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
+              >
+                <div className="text-2xl mb-2">☯️</div>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Zen videos</h4>
+                <p className="text-muted-foreground text-xs">атмосфера спокойствия и медитации</p>
+              </a>
+              <a 
+                href="https://www.youtube.com/@OceanMediaProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
+              >
+                <div className="text-2xl mb-2">🌿</div>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Wellness visuals</h4>
+                <p className="text-muted-foreground text-xs">для SPA, йоги и оздоровительных центров</p>
+              </a>
+              <a 
+                href="https://www.youtube.com/@OceanMediaProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
+              >
+                <div className="text-2xl mb-2">🎶</div>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Soothing visuals</h4>
+                <p className="text-muted-foreground text-xs">фоновая эстетика для гармоничной атмосферы</p>
+              </a>
+              <a 
+                href="https://www.youtube.com/@OceanMediaProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
+              >
+                <div className="text-2xl mb-2">🌌</div>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Ambient videos</h4>
+                <p className="text-muted-foreground text-xs">универсальный контент для Digital Signage и ТВ</p>
+              </a>
+              <a 
+                href="https://www.youtube.com/@OceanMediaProject"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
+              >
+                <div className="text-2xl mb-2">🌍</div>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Nature relaxation films</h4>
+                <p className="text-muted-foreground text-xs">пейзажи, природа, элементы</p>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
