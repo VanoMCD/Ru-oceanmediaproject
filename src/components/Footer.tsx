@@ -8,8 +8,8 @@ const Footer = () => {
             {/* Logo and Description */}
             <div className="space-y-4 max-w-md">
               <div className="flex items-center space-x-2">
-                <Waves className="h-8 w-8 text-accent animate-ocean-wave" />
-                <span className="text-xl font-bold">OCEAN MEDIA PROJECT</span>
+                <Waves className="h-6 w-6 text-accent animate-ocean-wave" />
+                <span className="text-lg font-bold">OCEAN MEDIA PROJECT</span>
               </div>
               <p className="text-primary-foreground/80 text-sm">
                 Наша компания предлагает сотни часов Relax видео необходимой<br />
@@ -25,8 +25,8 @@ const Footer = () => {
             {/* Contact Info */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <Phone className="h-8 w-8 text-accent animate-ocean-wave" />
-                <span className="text-xl font-bold">СВЯЖИТЕСЬ С НАМИ</span>
+                <Phone className="h-6 w-6 text-accent animate-ocean-wave" />
+                <span className="text-lg font-bold">СВЯЖИТЕСЬ С НАМИ</span>
               </div>
               <div className="space-y-2 text-sm text-primary-foreground/80">
                 <div>📧 Email: <a href="mailto:o666699999@gmail.com" className="hover:text-accent transition-colors">o666699999@gmail.com</a></div>
