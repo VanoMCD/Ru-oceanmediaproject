@@ -122,25 +122,41 @@ const AboutSection = () => {
           {/* Content Categories */}
           <div className="bg-gradient-ocean rounded-xl p-8 text-primary-foreground mb-2">
             <h3 className="text-2xl font-bold mb-6 text-center">📹 ОСНОВА НАШЕЙ ВИДЕОТЕКИ:</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="space-y-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
                 <div className="flex items-center gap-3">
                   <Fish className="h-5 w-5 text-accent" />
-                  <p><strong>Подводный мир:</strong> коралловые рифы, уникальные рыбы и подводные обитатели</p>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Sailboat className="h-5 w-5 text-accent" />
-                  <p><strong>Прибрежные виды:</strong> умиротворяющие виды водных видов спорта и яхт</p>
+                  <div>
+                    <h4 className="font-bold text-primary-foreground">Подводный мир</h4>
+                    <p className="text-sm text-primary-foreground/80">коралловые рифы, уникальные рыбы и подводные обитатели</p>
+                  </div>
                 </div>
               </div>
-              <div className="space-y-4">
+              <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
+                <div className="flex items-center gap-3">
+                  <Sailboat className="h-5 w-5 text-accent" />
+                  <div>
+                    <h4 className="font-bold text-primary-foreground">Прибрежные виды</h4>
+                    <p className="text-sm text-primary-foreground/80">умиротворяющие виды водных видов спорта и яхт</p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
                 <div className="flex items-center gap-3">
                   <Trees className="h-5 w-5 text-accent" />
-                  <p><strong>Природные красоты:</strong> побережья, леса, реки, каньоны, водопады</p>
+                  <div>
+                    <h4 className="font-bold text-primary-foreground">Природные красоты</h4>
+                    <p className="text-sm text-primary-foreground/80">побережья, леса, реки, каньоны, водопады</p>
+                  </div>
                 </div>
+              </div>
+              <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
                 <div className="flex items-center gap-3">
                   <Sparkles className="h-5 w-5 text-accent" />
-                  <p><strong>Уникальные события:</strong> захватывающие кадры салютов и фейерверков</p>
+                  <div>
+                    <h4 className="font-bold text-primary-foreground">Уникальные события</h4>
+                    <p className="text-sm text-primary-foreground/80">захватывающие кадры салютов и фейерверков</p>
+                  </div>
                 </div>
               </div>
             </div>
