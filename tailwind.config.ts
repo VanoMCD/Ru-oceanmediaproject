@@ -71,7 +71,7 @@ export default {
 			backgroundImage: {
 				'gradient-ocean': 'var(--gradient-ocean)',
 				'gradient-deep': 'var(--gradient-deep)',
-				'gradient-surface': 'var(--gradient-surface)'
+				'gradient-surface': 'hsl(185 55% 88%)'
 			},
 			boxShadow: {
 				'ocean': 'var(--shadow-ocean)',
