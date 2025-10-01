@@ -94,7 +94,7 @@ const AboutSection = () => {
                         </div>
                         <div>
                           <p className="font-semibold text-primary">Формат HD, UHD, 4K</p>
-                          <p className="text-muted-foreground text-sm">возможности есть, вопрос договоренностей</p>
+                          <p className="text-muted-foreground text-sm">адаптация материала под Ваши требования</p>
                         </div>
                       </div>
                     </CardContent>
