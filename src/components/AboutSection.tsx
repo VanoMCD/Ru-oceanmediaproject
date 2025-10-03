@@ -108,7 +108,7 @@ const AboutSection = () => {
                         </div>
                         <div>
                           <p className="font-semibold text-primary">Индивидуальная адаптация</p>
-                          <p className="text-muted-foreground text-sm">наложение звука, музыки, речи, текста</p>
+                          <p className="text-muted-foreground text-sm">наложение музыки, речи, текста, мультиязычность</p>
                         </div>
                       </div>
                     </CardContent>
