@@ -12,6 +12,15 @@ const Navigation = () => {
     { href: "#clients", label: "For Whom" },
   ];
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const target = document.querySelector(href);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setIsOpen(false);
+    }
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
@@ -28,7 +37,8 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-foreground hover:text-accent transition-colors duration-300"
+                onClick={(e) => handleClick(e, item.href)}
+                className="text-foreground hover:text-accent transition-colors duration-300 cursor-pointer"
               >
                 {item.label}
               </a>
@@ -57,8 +67,8 @@ const Navigation = () => {
                 <a
                   key={item.href}
                   href={item.href}
-                  className="text-foreground hover:text-accent transition-colors duration-300"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => handleClick(e, item.href)}
+                  className="text-foreground hover:text-accent transition-colors duration-300 cursor-pointer"
                 >
                   {item.label}
                 </a>
