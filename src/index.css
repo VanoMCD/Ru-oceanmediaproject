@@ -120,9 +120,14 @@ All colors MUST be HSL.
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
   }
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  section[id] {
+    scroll-margin-top: 80px;
   }
 }
