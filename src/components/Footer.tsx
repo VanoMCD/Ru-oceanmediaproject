@@ -11,7 +11,7 @@ const Footer = () => {
                 <Waves className="h-6 w-6 text-accent animate-ocean-wave" />
                 <span className="text-lg font-bold">OCEAN MEDIA PROJECT</span>
               </div>
-              <p className="text-primary-foreground/80 text-sm leading-relaxed flex-1 text-justify">
+              <p className="text-primary-foreground/80 text-sm leading-loose flex-1 text-justify">
                 Our company offers hundreds of hours of relaxation videos in any required duration, as well as streaming services that transform screens into business tools. We create custom video content adapted to your industry: TV, advertising, online services, medical clinics, wellness, hotels and SPAs. All content comes with full copyrights and licenses. A ready-made solution that saves time and adds new value to your business!
               </p>
             </div>
