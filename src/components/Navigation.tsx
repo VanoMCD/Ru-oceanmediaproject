@@ -43,11 +43,19 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <a href="mailto:o666699999@gmail.com?subject=WEB%20Request&body=Hello!%0A%0AWe%20are%20interested%20in%20Relax%20content%20for%20display%20on%20...%0AWe%20need%20approximately%20...%20hours%0ATerritories%20of%20use%20-%20...">
-              <Button variant="default" className="bg-gradient-ocean text-primary-foreground shadow-ocean hover:shadow-depth transition-all duration-300">
-                Contact Us
-              </Button>
-            </a>
+            <Button 
+              variant="default" 
+              className="bg-gradient-ocean text-primary-foreground shadow-ocean hover:shadow-depth transition-all duration-300 cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                const target = document.querySelector('#contact');
+                if (target) {
+                  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
+            >
+              Contact Us
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -73,11 +81,20 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <a href="mailto:o666699999@gmail.com?subject=WEB%20Request&body=Hello!%0A%0AWe%20are%20interested%20in%20Relax%20content%20for%20display%20on%20...%0AWe%20need%20approximately%20...%20hours%0ATerritories%20of%20use%20-%20...">
-                <Button variant="default" className="bg-gradient-ocean text-primary-foreground w-full">
-                  Contact Us
-                </Button>
-              </a>
+              <Button 
+                variant="default" 
+                className="bg-gradient-ocean text-primary-foreground w-full cursor-pointer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const target = document.querySelector('#contact');
+                  if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    setIsOpen(false);
+                  }
+                }}
+              >
+                Contact Us
+              </Button>
             </div>
           </div>
         )}

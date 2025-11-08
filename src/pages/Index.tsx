@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import ClientsSection from "@/components/ClientsSection";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <PortfolioSection />
       <ClientsSection />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
