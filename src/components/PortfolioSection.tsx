@@ -9,7 +9,7 @@ const PortfolioSection = () => {
     link: "https://www.youtube.com/@OceanMediaProject",
     description: "Quality content for viewing"
   }, {
-    name: "📺 Vimeo Channel", 
+    name: "📺 Vimeo", 
     link: "https://vimeo.com/oceanmediaproject",
     description: "Professional video platform"
   }, {
