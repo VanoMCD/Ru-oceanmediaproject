@@ -61,7 +61,7 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-start gap-2">
+                        <div className="flex items-start gap-1">
                           <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Готовый видео-контент</p>
                         </div>
@@ -73,7 +73,7 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-start gap-2">
+                        <div className="flex items-start gap-1">
                           <Globe className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Формат HD, UHD, 4K</p>
                         </div>
@@ -85,7 +85,7 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-start gap-2">
+                        <div className="flex items-start gap-1">
                           <Award className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Любые виды лицензий и сроки</p>
                         </div>
@@ -97,7 +97,7 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-start gap-2">
+                        <div className="flex items-start gap-1">
                           <Zap className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Индивидуальная адаптация</p>
                         </div>
