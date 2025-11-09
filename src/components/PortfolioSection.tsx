@@ -5,6 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Play, Eye } from "lucide-react";
 const PortfolioSection = () => {
   const platforms = [{
+    name: "📱 VK",
+    link: "https://vk.com/oceanmediaproject",
+    description: "Наша группа ВКонтакте"
+  }, {
     name: "📺 YouTube-канал",
     link: "https://www.youtube.com/@OceanMediaProject",
     description: "Качественный контент для просмотра"
@@ -12,10 +16,6 @@ const PortfolioSection = () => {
     name: "📺 Rutube-канал", 
     link: "https://rutube.ru/channel/61735052/",
     description: "Российская видеоплатформа"
-  }, {
-    name: "📱 VK",
-    link: "https://vk.com/oceanmediaproject",
-    description: "Наша группа ВКонтакте"
   }, {
     name: "🎬 Vimeo",
     link: "https://vimeo.com/oceanmediaproject",
