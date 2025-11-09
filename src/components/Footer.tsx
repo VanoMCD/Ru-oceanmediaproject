@@ -27,8 +27,7 @@ const Footer = () => {
                 <div>📱 WhatsApp: <a href="https://wa.me/381666699999" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">+381 66 66 999 99</a></div>
                 <div>📱 Telegram: <a href="https://t.me/+381666699999" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">+381 66 66 999 99</a></div>
                 <div>🌍 Website: <a href="https://www.oceanmediaproject.com" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">www.oceanmediaproject.com</a></div>
-                <div>📘 Facebook: <a href="https://www.facebook.com/OceanMediaProject/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">Ocean Media Project</a></div>
-                <div>💼 LinkedIn: <a href="https://linkedin.com/in/oceanmediaproject" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">Ocean Media Project</a></div>
+                <div>🔵 VK: <a href="https://vk.com/oceanmediaproject" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">Ocean Media Project</a></div>
               </div>
             </div>
           </div>
@@ -42,7 +41,6 @@ const Footer = () => {
               <div className="flex flex-wrap gap-4 justify-center md:justify-end mt-4 md:mt-0 text-xs">
                 <a href="https://www.youtube.com/@OceanMediaProject" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">YouTube</a>
                 <a href="https://rutube.ru/channel/61735052/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">Rutube</a>
-                <a href="https://vk.com/oceanmediaproject" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">VK</a>
                 <a href="https://vimeo.com/oceanmediaproject" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">Vimeo</a>
                 <a href="https://stock.adobe.com/contributor/205029892/videodive" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">Adobe Stock</a>
                 <a href="https://istockphoto.com/ru/portfolio/VIDEODIVE?assettype=film" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">iStockphoto</a>
