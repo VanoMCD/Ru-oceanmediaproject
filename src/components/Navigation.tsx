@@ -12,15 +12,38 @@ const Navigation = () => {
     { href: "#clients", label: "For Whom" },
   ];
 
+  const smoothScrollTo = (targetPosition: number) => {
+    const startPosition = window.scrollY;
+    const distance = targetPosition - startPosition;
+    const duration = 1000;
+    let start: number | null = null;
+
+    const animation = (currentTime: number) => {
+      if (start === null) start = currentTime;
+      const timeElapsed = currentTime - start;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      // Easing function for smooth animation
+      const easeInOutCubic = progress < 0.5
+        ? 4 * progress * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+      
+      window.scrollTo(0, startPosition + distance * easeInOutCubic);
+      
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    };
+
+    requestAnimationFrame(animation);
+  };
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     const target = document.querySelector(href);
     if (target) {
       const targetPosition = target.getBoundingClientRect().top + window.scrollY - 80;
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-      });
+      smoothScrollTo(targetPosition);
       setIsOpen(false);
     }
   };
@@ -54,10 +77,7 @@ const Navigation = () => {
                 const target = document.querySelector('#contact');
                 if (target) {
                   const targetPosition = target.getBoundingClientRect().top + window.scrollY - 80;
-                  window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                  });
+                  smoothScrollTo(targetPosition);
                 }
               }}
             >
@@ -95,10 +115,7 @@ const Navigation = () => {
                   const target = document.querySelector('#contact');
                   if (target) {
                     const targetPosition = target.getBoundingClientRect().top + window.scrollY - 80;
-                    window.scrollTo({
-                      top: targetPosition,
-                      behavior: 'smooth'
-                    });
+                    smoothScrollTo(targetPosition);
                     setIsOpen(false);
                   }
                 }}
