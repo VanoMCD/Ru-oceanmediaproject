@@ -60,48 +60,48 @@ const AboutSection = () => {
                 <div className="grid md:grid-cols-2 gap-4">
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <CheckCircle className="h-5 w-5 text-emerald-300" />
+                      <div className="flex items-start gap-2 text-center">
+                        <CheckCircle className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                        <div className="flex-1">
                           <p className="font-semibold text-primary">Готовый видео-контент</p>
+                          <p className="text-muted-foreground text-sm">сотни часов релакс роликов и 24/7 стрим</p>
                         </div>
-                        <p className="text-muted-foreground text-sm">сотни часов релакс роликов и 24/7 стрим</p>
                       </div>
                     </CardContent>
                   </Card>
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <Award className="h-5 w-5 text-emerald-300" />
+                      <div className="flex items-start gap-2 text-center">
+                        <Award className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                        <div className="flex-1">
                           <p className="font-semibold text-primary">Любые виды лицензий и сроки</p>
+                          <p className="text-muted-foreground text-sm">зарабатывайте, не думая о правовых рисках</p>
                         </div>
-                        <p className="text-muted-foreground text-sm">зарабатывайте, не думая о правовых рисках</p>
                       </div>
                     </CardContent>
                   </Card>
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <Globe className="h-5 w-5 text-emerald-300" />
+                      <div className="flex items-start gap-2 text-center">
+                        <Globe className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                        <div className="flex-1">
                           <p className="font-semibold text-primary">Формат HD, UHD, 4K</p>
+                          <p className="text-muted-foreground text-sm">адаптация материала под Ваши требования</p>
                         </div>
-                        <p className="text-muted-foreground text-sm">адаптация материала под Ваши требования</p>
                       </div>
                     </CardContent>
                   </Card>
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <Zap className="h-5 w-5 text-emerald-300" />
+                      <div className="flex items-start gap-2 text-center">
+                        <Zap className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                        <div className="flex-1">
                           <p className="font-semibold text-primary">Индивидуальная адаптация</p>
+                          <p className="text-muted-foreground text-sm">наложение музыки, речи, текста, мультиязычность</p>
                         </div>
-                        <p className="text-muted-foreground text-sm">наложение музыки, речи, текста, мультиязычность</p>
                       </div>
                     </CardContent>
                   </Card>
