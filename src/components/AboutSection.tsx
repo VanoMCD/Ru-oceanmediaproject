@@ -61,8 +61,8 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <CheckCircle className="h-5 w-5 text-accent" />
+                        <div className="flex items-start gap-2">
+                          <CheckCircle className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Готовый видео-контент</p>
                         </div>
                         <p className="text-muted-foreground text-sm">сотни часов релакс роликов и 24/7 стрим</p>
@@ -73,8 +73,8 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <Globe className="h-5 w-5 text-accent" />
+                        <div className="flex items-start gap-2">
+                          <Globe className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Формат HD, UHD, 4K</p>
                         </div>
                         <p className="text-muted-foreground text-sm">адаптация материала под Ваши требования</p>
@@ -85,8 +85,8 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <Award className="h-5 w-5 text-accent" />
+                        <div className="flex items-start gap-2">
+                          <Award className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Любые виды лицензий и сроки</p>
                         </div>
                         <p className="text-muted-foreground text-sm">зарабатывайте, не думая о правовых рисках</p>
@@ -97,8 +97,8 @@ const AboutSection = () => {
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
                       <div className="flex flex-col items-center text-center gap-2">
-                        <div className="flex items-center gap-2">
-                          <Zap className="h-5 w-5 text-accent" />
+                        <div className="flex items-start gap-2">
+                          <Zap className="h-5 w-5 text-accent flex-shrink-0" />
                           <p className="font-semibold text-primary">Индивидуальная адаптация</p>
                         </div>
                         <p className="text-muted-foreground text-sm">наложение музыки, речи, текста, мультиязычность</p>
