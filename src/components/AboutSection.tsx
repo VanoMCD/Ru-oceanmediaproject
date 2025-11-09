@@ -60,11 +60,11 @@ const AboutSection = () => {
                 <div className="grid md:grid-cols-2 gap-4">
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center gap-3 text-center">
+                      <div className="flex items-center gap-3">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <CheckCircle className="h-5 w-5 text-primary" />
                         </div>
-                        <div>
+                        <div className="text-center flex-1">
                           <p className="font-semibold text-primary">Готовый видео-контент</p>
                           <p className="text-muted-foreground text-sm">сотни часов релакс роликов и 24/7 стрим</p>
                         </div>
@@ -74,11 +74,11 @@ const AboutSection = () => {
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center gap-3 text-center">
+                      <div className="flex items-center gap-3">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <Award className="h-5 w-5 text-primary" />
                         </div>
-                        <div>
+                        <div className="text-center flex-1">
                           <p className="font-semibold text-primary">Любые виды лицензий и сроки</p>
                           <p className="text-muted-foreground text-sm">зарабатывайте, не думая о правовых рисках</p>
                         </div>
@@ -88,11 +88,11 @@ const AboutSection = () => {
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center gap-3 text-center">
+                      <div className="flex items-center gap-3">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <Globe className="h-5 w-5 text-primary" />
                         </div>
-                        <div>
+                        <div className="text-center flex-1">
                           <p className="font-semibold text-primary">Формат HD, UHD, 4K</p>
                           <p className="text-muted-foreground text-sm">адаптация материала под Ваши требования</p>
                         </div>
@@ -102,11 +102,11 @@ const AboutSection = () => {
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex flex-col items-center gap-3 text-center">
+                      <div className="flex items-center gap-3">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <Zap className="h-5 w-5 text-primary" />
                         </div>
-                        <div>
+                        <div className="text-center flex-1">
                           <p className="font-semibold text-primary">Индивидуальная адаптация</p>
                           <p className="text-muted-foreground text-sm">наложение музыки, речи, текста, мультиязычность</p>
                         </div>
