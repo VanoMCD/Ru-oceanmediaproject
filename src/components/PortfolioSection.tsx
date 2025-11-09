@@ -7,19 +7,19 @@ const PortfolioSection = () => {
   const platforms = [{
     name: "VK",
     link: "https://vk.com/oceanmediaproject",
-    description: "Наша группа ВКонтакте"
+    description: "Следите за нами ВКонтакте"
   }, {
     name: "YouTube-канал",
     link: "https://www.youtube.com/@OceanMediaProject",
-    description: "Качественный контент для просмотра"
+    description: "Смотрите нас на YouTube"
   }, {
     name: "Rutube-канал", 
     link: "https://rutube.ru/channel/61735052/",
-    description: "Российская видеоплатформа"
+    description: "Мы на Rutube"
   }, {
     name: "Vimeo",
     link: "https://vimeo.com/oceanmediaproject",
-    description: "Профессиональная видеоплатформа"
+    description: "Наша коллекция на Vimeo"
   }, {
     name: "🎞️ Shutterstock",
     link: "https://shutterstock.com/ru/g/vmsartstudio/video?rid=371249757",
