@@ -5,50 +5,50 @@ import { Button } from "@/components/ui/button";
 import { Play, Eye } from "lucide-react";
 const PortfolioSection = () => {
   const platforms = [{
-    name: "📺 YouTube Channel",
+    name: "📺 YouTube канал",
     link: "https://www.youtube.com/@OceanMediaProject",
-    description: "Quality content for viewing"
+    description: "Качественный контент для просмотра"
   }, {
     name: "📺 Vimeo", 
     link: "https://vimeo.com/oceanmediaproject",
-    description: "Professional video platform"
+    description: "Профессиональная видеоплатформа"
   }, {
     name: "🎞️ Shutterstock",
     link: "https://shutterstock.com/ru/g/vmsartstudio/video?rid=371249757",
-    description: "Premium content for professionals"
+    description: "Премиум контент для профессионалов"
   }, {
     name: "🎥 Pond5 (Videodive)",
     link: "https://pond5.com/artist/videodive", 
-    description: "Videodive content"
+    description: "Контент Videodive"
   }, {
     name: "🎥 Pond5 (Videoton)",
     link: "https://pond5.com/artist/videoton", 
-    description: "Videoton content"
+    description: "Контент Videoton"
   }, {
     name: "🎥 Pond5 (Vmsartstudio619)",
     link: "https://pond5.com/artist/vmsartstudio619", 
-    description: "Vmsartstudio619 content"
+    description: "Контент Vmsartstudio619"
   }, {
     name: "📽 Adobe Stock",
     link: "https://stock.adobe.com/contributor/205029892/videodive",
-    description: "Quality content for creative projects"
+    description: "Качественный контент для творческих проектов"
   }, {
     name: "📷 iStockphoto",
     link: "https://istockphoto.com/ru/portfolio/VIDEODIVE?assettype=film",
-    description: "Professional video materials"
+    description: "Профессиональные видеоматериалы"
   }, {
     name: "🎬 Pixtastock",
     link: "https://creator-en.pixtastock.com/@videoton/footage",
-    description: "Japanese stock content platform"
+    description: "Японская стоковая платформа"
   }];
 
   return <section id="platforms" className="pt-1 pb-5 bg-gradient-portfolio">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">WHERE CAN YOU VIEW OUR CONTENT?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">ГДЕ МОЖНО ПОСМОТРЕТЬ НАШ КОНТЕНТ?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Subscribe and enjoy quality content!
+              Подписывайтесь и наслаждайтесь качественным контентом!
             </p>
             
             {/* Platforms Info */}

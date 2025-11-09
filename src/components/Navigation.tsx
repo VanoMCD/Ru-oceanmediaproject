@@ -6,11 +6,11 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { href: "#home", label: "Home" },
-    { href: "#about", label: "About Us" },
-    { href: "#portfolio", label: "Catalog" },
-    { href: "#clients", label: "For Whom" },
-    { href: "#request", label: "Request" },
+    { href: "#home", label: "Главная" },
+    { href: "#about", label: "О нас" },
+    { href: "#portfolio", label: "Каталог" },
+    { href: "#clients", label: "Для кого" },
+    { href: "#request", label: "Запрос" },
   ];
 
   const smoothScrollTo = (targetPosition: number) => {
@@ -82,7 +82,7 @@ const Navigation = () => {
                 }
               }}
             >
-              Contact Us
+              Связаться с нами
             </Button>
           </div>
 
@@ -121,7 +121,7 @@ const Navigation = () => {
                   }
                 }}
               >
-                Contact Us
+                Связаться с нами
               </Button>
             </div>
           </div>

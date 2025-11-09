@@ -7,63 +7,63 @@ const ClientsSection = () => {
   const clientTypes = [
     {
       icon: <Play className="h-8 w-8" />,
-      title: "📡 TV Channels & Production Studios",
-      description: "content for shows, documentary projects",
-      use: "Professional broadcast content"
+      title: "📡 ТВ каналы и продакшн студии",
+      description: "контент для передач, документальных проектов",
+      use: "Профессиональный вещательный контент"
     },
     {
       icon: <Monitor className="h-8 w-8" />,
-      title: "📺 Digital Signage Companies", 
-      description: "content for video panels",
-      use: "Exclusive display content"
+      title: "📺 Digital Signage компании", 
+      description: "контент для видеопанелей",
+      use: "Эксклюзивный контент для дисплеев"
     },
     {
       icon: <Utensils className="h-8 w-8" />,
-      title: "🍽️ HoReCa Background Video for Lobbies, Restaurants & Cafes",
+      title: "🍽️ HoReCa Фоновое видео для холлов, ресторанов и кафе",
       description: "",
-      use: "Creating a welcoming atmosphere for guests"
+      use: "Создание гостеприимной атмосферы для гостей"
     },
     {
       icon: <Heart className="h-8 w-8" />,
-      title: "🧘 Wellness Centers, SPAs, Yoga Studios",
-      description: "relaxation content for ambiance",
-      use: "Content for treatments and sessions"
+      title: "🧘 Велнес центры, СПА, студии йоги",
+      description: "релакс контент для атмосферы",
+      use: "Контент для процедур и сеансов"
     },
     {
       icon: <Waves className="h-8 w-8" />,
-      title: "🏥 Medical Clinics, Dental Offices",
-      description: "calming videos for patients",
-      use: "Reducing patient stress"
+      title: "🏥 Медицинские клиники, стоматологии",
+      description: "успокаивающие видео для пациентов",
+      use: "Снижение стресса пациентов"
     },
     {
       icon: <Building2 className="h-8 w-8" />,
-      title: "🏢 Corporate Offices & Coworking Spaces",
-      description: "comfortable atmosphere for employees",
-      use: "Improving work environment"
+      title: "🏢 Корпоративные офисы и коворкинги",
+      description: "комфортная атмосфера для сотрудников",
+      use: "Улучшение рабочей среды"
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: "🎭 Museums, Exhibitions, Art Spaces",
-      description: "visual accompaniment for exhibitions",
-      use: "Complementing exhibitions"
+      title: "🎭 Музеи, выставки, арт-пространства",
+      description: "визуальное сопровождение экспозиций",
+      use: "Дополнение выставок"
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: "📹 YouTube Channels & Content Creators",
-      description: "videos for blogs, ASMR and meditations",
-      use: "Background content for videos"
+      title: "📹 YouTube каналы и контент-мейкеры",
+      description: "видео для блогов, ASMR и медитаций",
+      use: "Фоновый контент для видео"
     },
     {
       icon: <Youtube className="h-8 w-8" />,
-      title: "🎬 Streaming Services & VOD Platforms",
-      description: "video catalogs for subscribers",
-      use: "Content for relaxation channels"
+      title: "🎬 Стриминговые сервисы и VOD платформы",
+      description: "видеокаталоги для подписчиков",
+      use: "Контент для релакс каналов"
     },
     {
       icon: <Monitor className="h-8 w-8" />,
-      title: "📢 Advertising Agencies",
-      description: "content acquisition for portfolio and client sales, campaign insertions",
-      use: "Content for advertising projects"
+      title: "📢 Рекламные агентства",
+      description: "приобретение контента для портфолио и продажи клиентам, вставки в кампании",
+      use: "Контент для рекламных проектов"
     }
   ];
 
@@ -72,9 +72,9 @@ const ClientsSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">WHO IS THIS FOR?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">ДЛЯ КОГО ЭТО?</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Our content is perfect for various business and entertainment sectors
+              Наш контент отлично подходит для различных бизнес и развлекательных секторов
             </p>
           </div>
 
@@ -107,24 +107,24 @@ const ClientsSection = () => {
 
           {/* Call to Action */}
           <div id="request" className="text-center bg-gradient-ocean rounded-xl p-12 text-primary-foreground">
-            <h3 className="text-3xl font-bold mb-4">Ready to Collaborate?</h3>
+            <h3 className="text-3xl font-bold mb-4">Готовы к сотрудничеству?</h3>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto text-center">
-              📩 Write to us in any language!<br />
-              We'll select and prepare content for your business!
+              📩 Пишите нам на любом языке!<br />
+              Подберём и подготовим контент для вашего бизнеса!
             </p>
             <div className="flex justify-center">
               <a 
-                href="mailto:o666699999@gmail.com?subject=WEB%20Request&body=Hello!%0A%0AWe%20are%20interested%20in%20Relax%20content%20for%20display%20on%20...%0AWe%20need%20approximately%20...%20hours%0ATerritories%20of%20use%20-%20..."
+                href="mailto:o666699999@gmail.com?subject=WEB%20Запрос&body=Здравствуйте!%0A%0AМы%20заинтересованы%20в%20Relax%20контенте%20для%20демонстрации%20на%20...%0AНам%20необходимо%20примерно%20...%20часов%0AТерритории%20использования%20-%20..."
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-colors duration-300 w-full max-w-md"
               >
-                Send Request
+                Отправить запрос
               </a>
             </div>
           </div>
 
           {/* Content Types Section */}
           <div className="mt-5">
-            <h3 className="text-3xl font-bold text-primary text-center mb-8">Our Content Categories</h3>
+            <h3 className="text-3xl font-bold text-primary text-center mb-8">Наши категории контента</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <a 
                 href="https://www.youtube.com/@OceanMediaProject"
@@ -133,8 +133,8 @@ const ClientsSection = () => {
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
               >
                 <div className="text-2xl mb-2">🧘</div>
-                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Relaxation videos</h4>
-                <p className="text-muted-foreground text-xs">visual practices for rest and recovery</p>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Релакс видео</h4>
+                <p className="text-muted-foreground text-xs">визуальные практики для отдыха и восстановления</p>
               </a>
               <a 
                 href="https://www.youtube.com/@OceanMediaProject"
@@ -143,8 +143,8 @@ const ClientsSection = () => {
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
               >
                 <div className="text-2xl mb-2">☯️</div>
-                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Zen videos</h4>
-                <p className="text-muted-foreground text-xs">atmosphere of calm and meditation</p>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Дзен видео</h4>
+                <p className="text-muted-foreground text-xs">атмосфера спокойствия и медитации</p>
               </a>
               <a 
                 href="https://www.youtube.com/@OceanMediaProject"
@@ -153,8 +153,8 @@ const ClientsSection = () => {
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
               >
                 <div className="text-2xl mb-2">🌿</div>
-                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Wellness visuals</h4>
-                <p className="text-muted-foreground text-xs">for SPAs, yoga and wellness centers</p>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Велнес видео</h4>
+                <p className="text-muted-foreground text-xs">для СПА, йоги и велнес центров</p>
               </a>
               <a 
                 href="https://www.youtube.com/@OceanMediaProject"
@@ -163,8 +163,8 @@ const ClientsSection = () => {
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
               >
                 <div className="text-2xl mb-2">🎶</div>
-                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Soothing visuals</h4>
-                <p className="text-muted-foreground text-xs">background aesthetics for harmonious atmosphere</p>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Успокаивающие видео</h4>
+                <p className="text-muted-foreground text-xs">фоновая эстетика для гармоничной атмосферы</p>
               </a>
               <a 
                 href="https://www.youtube.com/@OceanMediaProject"
@@ -173,8 +173,8 @@ const ClientsSection = () => {
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
               >
                 <div className="text-2xl mb-2">🌌</div>
-                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Ambient videos</h4>
-                <p className="text-muted-foreground text-xs">universal content for Digital Signage and TV</p>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Эмбиент видео</h4>
+                <p className="text-muted-foreground text-xs">универсальный контент для Digital Signage и ТВ</p>
               </a>
               <a 
                 href="https://www.youtube.com/@OceanMediaProject"
@@ -183,8 +183,8 @@ const ClientsSection = () => {
                 className="bg-card border border-accent/20 rounded-lg p-3 text-center hover:border-accent/40 transition-colors duration-300 group"
               >
                 <div className="text-2xl mb-2">🌍</div>
-                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Nature relaxation films</h4>
-                <p className="text-muted-foreground text-xs">landscapes, nature, elements</p>
+                <h4 className="text-lg font-semibold text-primary mb-1 group-hover:text-accent transition-colors">Фильмы релаксации о природе</h4>
+                <p className="text-muted-foreground text-xs">пейзажи, природа, стихии</p>
               </a>
             </div>
           </div>

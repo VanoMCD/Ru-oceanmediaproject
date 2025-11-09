@@ -12,7 +12,7 @@ const Footer = () => {
                 <span className="text-lg font-bold">OCEAN MEDIA PROJECT</span>
               </div>
               <p className="text-primary-foreground/80 text-sm leading-loose flex-1 text-justify">
-                Our company offers hundreds of hours of relaxation videos in any required duration, as well as streaming services that transform screens into business tools. We create custom video content adapted to your industry: TV, advertising, online services, medical clinics, wellness, hotels and SPAs. All content comes with full copyrights and licenses. A ready-made solution that saves time and adds new value to your business!
+                Наша компания предлагает сотни часов видео релаксации в любой требуемой продолжительности, а также стриминговые услуги, превращающие экраны в бизнес-инструменты. Мы создаём индивидуальный видеоконтент, адаптированный под вашу отрасль: ТВ, реклама, онлайн-сервисы, медицинские клиники, велнес, отели и СПА. Весь контент идет с полными авторскими правами и лицензиями. Готовое решение, экономящее время и добавляющее новую ценность вашему бизнесу!
               </p>
             </div>
 
@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="flex flex-col space-y-4">
               <div className="flex items-center space-x-2">
                 <Phone className="h-6 w-6 text-white animate-ocean-wave" />
-                <span className="text-lg font-bold">CONTACT US</span>
+                <span className="text-lg font-bold">СВЯЗАТЬСЯ С НАМИ</span>
               </div>
               <div className="space-y-2 text-sm text-primary-foreground/80 flex-1">
                 <div>📧 Email: <a href="mailto:o666699999@gmail.com" className="hover:text-white hover:underline transition-colors">o666699999@gmail.com</a></div>
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="border-t border-primary-foreground/20 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/60">
               <div>
-                © {currentYear} Ocean Media Project. All rights reserved.
+                © {currentYear} Ocean Media Project. Все права защищены.
               </div>
               <div className="flex flex-wrap gap-4 justify-center md:justify-end mt-4 md:mt-0 text-xs">
                 <a href="https://www.youtube.com/@OceanMediaProject" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:underline transition-colors">YouTube</a>
