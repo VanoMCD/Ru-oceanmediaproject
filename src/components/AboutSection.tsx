@@ -60,7 +60,7 @@ const AboutSection = () => {
                 <div className="grid md:grid-cols-2 gap-4">
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex items-center gap-3">
+                      <div className="flex flex-col items-center gap-3 text-center">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <CheckCircle className="h-5 w-5 text-primary" />
                         </div>
@@ -74,7 +74,7 @@ const AboutSection = () => {
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex items-center gap-3">
+                      <div className="flex flex-col items-center gap-3 text-center">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <Award className="h-5 w-5 text-primary" />
                         </div>
@@ -88,7 +88,7 @@ const AboutSection = () => {
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex items-center gap-3">
+                      <div className="flex flex-col items-center gap-3 text-center">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <Globe className="h-5 w-5 text-primary" />
                         </div>
@@ -102,7 +102,7 @@ const AboutSection = () => {
                   
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
-                      <div className="flex items-center gap-3">
+                      <div className="flex flex-col items-center gap-3 text-center">
                         <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                           <Zap className="h-5 w-5 text-primary" />
                         </div>
