@@ -11,7 +11,7 @@ const Footer = () => {
                 <Waves className="h-6 w-6 text-accent animate-ocean-wave" />
                 <span className="text-lg font-bold">OCEAN MEDIA PROJECT</span>
               </div>
-              <p className="text-primary-foreground/80 text-sm leading-loose flex-1 text-justify">
+              <p className="text-primary-foreground/80 text-sm leading-[1.7] flex-1 text-justify">
                 Наша компания предлагает сотни часов Relax видео необходимой длительности, а также потоковое вещание, превращающие экраны в инструмент для бизнеса. Мы создаём авторские видео ролики, адаптированные под вашу сферу: TV, реклама, и онлайн-сервисы, медклиники, wellness, отели и SPA... Контент сопровождается всеми авторскими правами и лицензиями. Готовое решение экономит время и даёт Вашему бизнесу новую ценность!
               </p>
             </div>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <Phone className="h-6 w-6 text-white animate-ocean-wave" />
                 <span className="text-lg font-bold">СВЯЗАТЬСЯ С НАМИ</span>
               </div>
-              <div className="space-y-3 text-sm text-primary-foreground/80 flex-1">
+              <div className="space-y-[0.85rem] text-sm text-primary-foreground/80 flex-1">
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
                   <span>Email: <a href="mailto:o666699999@gmail.com" className="hover:text-white hover:underline transition-colors">o666699999@gmail.com</a></span>
