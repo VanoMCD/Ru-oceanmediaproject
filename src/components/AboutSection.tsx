@@ -41,7 +41,7 @@ const AboutSection = () => {
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-bold">Ocean Media Project</span> <span className="text-foreground">– команда профессионалов, создающих эксклюзивный видеоконтент для бизнеса и медиа</span>
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mt-4">
-              🎥 Наши операторы снимают лучшие кадры, а монтажеры превращают их в цельную историю, где часы съёмок становятся минутами уникального, захватывающего видео.
+              🎥 Наши операторы-постановщики запечатлевают лучшие кадры, а режиссеры монтажа превращают их в цельную историю, где часы съёмок складываются в минуты уникального завораживающего видео.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const AboutSection = () => {
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-primary mb-6 text-center">Что мы предлагаем</h3>
+                <h3 className="text-2xl font-bold text-primary mb-6 text-center">Мы предлагаем</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <Card className="p-4 hover:shadow-lg transition-shadow">
                     <CardContent className="p-0">
@@ -65,8 +65,8 @@ const AboutSection = () => {
                           <CheckCircle className="h-5 w-5 text-primary" />
                         </div>
                         <div>
-                          <p className="font-semibold text-primary">Готовый видеоконтент</p>
-                          <p className="text-muted-foreground text-sm">сотни часов видео релаксации и стриминг 24/7</p>
+                          <p className="font-semibold text-primary">Готовый видео-контент</p>
+                          <p className="text-muted-foreground text-sm">сотни часов релакс роликов и 24/7 стрим</p>
                         </div>
                       </div>
                     </CardContent>
@@ -79,8 +79,8 @@ const AboutSection = () => {
                           <Award className="h-5 w-5 text-primary" />
                         </div>
                         <div>
-                          <p className="font-semibold text-primary">Все виды лицензий и условий</p>
-                          <p className="text-muted-foreground text-sm">монетизируйте без беспокойства о юридических рисках</p>
+                          <p className="font-semibold text-primary">Любые виды лицензий и сроки</p>
+                          <p className="text-muted-foreground text-sm">зарабатывайте, не думая о правовых рисках</p>
                         </div>
                       </div>
                     </CardContent>
@@ -93,8 +93,8 @@ const AboutSection = () => {
                           <Globe className="h-5 w-5 text-primary" />
                         </div>
                         <div>
-                          <p className="font-semibold text-primary">Форматы HD, UHD, 4K</p>
-                          <p className="text-muted-foreground text-sm">материал адаптированный под ваши требования</p>
+                          <p className="font-semibold text-primary">Формат HD, UHD, 4K</p>
+                          <p className="text-muted-foreground text-sm">адаптация материала под Ваши требования</p>
                         </div>
                       </div>
                     </CardContent>
@@ -108,7 +108,7 @@ const AboutSection = () => {
                         </div>
                         <div>
                           <p className="font-semibold text-primary">Индивидуальная адаптация</p>
-                          <p className="text-muted-foreground text-sm">наложение музыки, озвучка, текст, многоязычная поддержка</p>
+                          <p className="text-muted-foreground text-sm">наложение музыки, речи, текста, мультиязычность</p>
                         </div>
                       </div>
                     </CardContent>
@@ -129,7 +129,7 @@ const AboutSection = () => {
                     <Fish className="h-5 w-5 text-emerald-300" />
                     <h4 className="font-bold text-primary-foreground">Подводный мир</h4>
                   </div>
-                  <p className="text-sm text-primary-foreground/80">коралловые рифы, уникальные рыбы и морские обитатели</p>
+                  <p className="text-sm text-primary-foreground/80">коралловые рифы, уникальные рыбы и подводные обитатели</p>
                 </div>
               </div>
               <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
@@ -138,14 +138,14 @@ const AboutSection = () => {
                     <Sailboat className="h-5 w-5 text-emerald-300" />
                     <h4 className="font-bold text-primary-foreground">Прибрежные виды</h4>
                   </div>
-                  <p className="text-sm text-primary-foreground/80">безмятежные водные виды спорта и сцены с яхтами</p>
+                  <p className="text-sm text-primary-foreground/80">умиротворяющие виды водных видов спорта и яхт</p>
                 </div>
               </div>
               <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
                 <div className="flex flex-col items-center text-center gap-2">
                   <div className="flex items-center gap-2">
                     <Trees className="h-5 w-5 text-emerald-300" />
-                    <h4 className="font-bold text-primary-foreground">Природная красота</h4>
+                    <h4 className="font-bold text-primary-foreground">Природные красоты</h4>
                   </div>
                   <p className="text-sm text-primary-foreground/80">побережья, леса, реки, каньоны, водопады</p>
                 </div>
@@ -156,7 +156,7 @@ const AboutSection = () => {
                     <Sparkles className="h-5 w-5 text-emerald-300" />
                     <h4 className="font-bold text-primary-foreground">Уникальные события</h4>
                   </div>
-                  <p className="text-sm text-primary-foreground/80">захватывающие фейерверки и праздничные кадры</p>
+                  <p className="text-sm text-primary-foreground/80">захватывающие кадры салютов и фейерверков</p>
                 </div>
               </div>
             </div>
