@@ -7,51 +7,63 @@ const PortfolioSection = () => {
   const platforms = [{
     name: "📺 YouTube-канал",
     link: "https://www.youtube.com/@OceanMediaProject",
-    description: "Качественный контент для просмотра"
+    description: "Качественный контент для просмотра",
+    color: "#FF0000"
   }, {
     name: "📺 Rutube-канал", 
     link: "https://rutube.ru/channel/61735052/",
-    description: "Российская видеоплатформа"
+    description: "Российская видеоплатформа",
+    color: "#2A9DF4"
   }, {
     name: "📱 VK",
     link: "https://vk.com/oceanmediaproject",
-    description: "Наша группа ВКонтакте"
+    description: "Наша группа ВКонтакте",
+    color: "#0077FF"
   }, {
     name: "🎬 Vimeo",
     link: "https://vimeo.com/oceanmediaproject",
-    description: "Профессиональная видеоплатформа"
+    description: "Профессиональная видеоплатформа",
+    color: "#1AB7EA"
   }, {
     name: "🎞️ Shutterstock",
     link: "https://shutterstock.com/ru/g/vmsartstudio/video?rid=371249757",
-    description: "Премиум-контент для профессионалов"
+    description: "Премиум-контент для профессионалов",
+    color: "#E62117"
   }, {
     name: "🎥 Pond5",
     link: "https://pond5.com/artist/videodive", 
-    description: "Videodive контент"
+    description: "Videodive контент",
+    color: "#00A4E4"
   }, {
     name: "🎥 Pond5",
     link: "https://pond5.com/artist/videoton", 
-    description: "Videoton контент"
+    description: "Videoton контент",
+    color: "#00A4E4"
   }, {
     name: "🎥 Pond5",
     link: "https://pond5.com/artist/vmsartstudio619", 
-    description: "Vmsartstudio619 контент"
+    description: "Vmsartstudio619 контент",
+    color: "#00A4E4"
   }, {
     name: "📽 Adobe Stock",
     link: "https://stock.adobe.com/contributor/205029892/videodive",
-    description: "Качественный контент для креативных проектов"
+    description: "Качественный контент для креативных проектов",
+    color: "#FF0000"
   }, {
     name: "📷 iStockphoto",
     link: "https://istockphoto.com/ru/portfolio/VIDEODIVE?assettype=film",
-    description: "Профессиональные видеоматериалы"
+    description: "Профессиональные видеоматериалы",
+    color: "#00AB55"
   }, {
     name: "📽 Adobe Stock",
     link: "https://stock.adobe.com/contributor/212979533/oceanmediaproject",
-    description: "Ocean Media Project контент"
+    description: "Ocean Media Project контент",
+    color: "#FF0000"
   }, {
     name: "🎬 Pixtastock",
     link: "https://creator-en.pixtastock.com/@videoton/footage",
-    description: "Японская платформа для стокового контента"
+    description: "Японская платформа для стокового контента",
+    color: "#FF6B9D"
   }];
 
   return <section id="platforms" className="pt-1 pb-5 bg-gradient-portfolio">
@@ -71,9 +83,15 @@ const PortfolioSection = () => {
                   href={platform.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-card border border-accent/20 rounded-lg p-4 text-center hover:border-accent/40 transition-colors duration-300 group"
+                  className="bg-card rounded-lg p-4 text-center transition-all duration-300 group"
+                  style={{ 
+                    borderLeft: `4px solid ${platform.color}`,
+                    borderTop: `1px solid ${platform.color}40`,
+                    borderRight: `1px solid ${platform.color}40`,
+                    borderBottom: `1px solid ${platform.color}40`
+                  }}
                 >
-                  <div className="font-semibold text-primary group-hover:text-accent transition-colors">{platform.name}</div>
+                  <div className="font-semibold text-primary transition-colors" style={{ color: platform.color }}>{platform.name}</div>
                   <div className="text-sm text-muted-foreground">{platform.description}</div>
                 </a>
               ))}
