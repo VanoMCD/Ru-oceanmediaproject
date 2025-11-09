@@ -45,6 +45,10 @@ const PortfolioSection = () => {
     link: "https://istockphoto.com/ru/portfolio/VIDEODIVE?assettype=film",
     description: "Профессиональные видеоматериалы"
   }, {
+    name: "📽 Adobe Stock (OceanMediaProject)",
+    link: "https://stock.adobe.com/contributor/212979533/oceanmediaproject",
+    description: "Качественный контент для креативных проектов"
+  }, {
     name: "🎬 Pixtastock",
     link: "https://creator-en.pixtastock.com/@videoton/footage",
     description: "Японская платформа для стокового контента"
