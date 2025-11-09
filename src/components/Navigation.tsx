@@ -10,6 +10,7 @@ const Navigation = () => {
     { href: "#about", label: "About Us" },
     { href: "#portfolio", label: "Catalog" },
     { href: "#clients", label: "For Whom" },
+    { href: "#request", label: "Request" },
   ];
 
   const smoothScrollTo = (targetPosition: number) => {

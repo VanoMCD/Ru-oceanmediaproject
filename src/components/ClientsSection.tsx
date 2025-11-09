@@ -106,7 +106,7 @@ const ClientsSection = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="text-center bg-gradient-ocean rounded-xl p-12 text-primary-foreground">
+          <div id="request" className="text-center bg-gradient-ocean rounded-xl p-12 text-primary-foreground">
             <h3 className="text-3xl font-bold mb-4">Ready to Collaborate?</h3>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto text-center">
               📩 Write to us in any language!<br />
