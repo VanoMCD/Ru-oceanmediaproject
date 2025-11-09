@@ -25,15 +25,15 @@ const PortfolioSection = () => {
     link: "https://shutterstock.com/ru/g/vmsartstudio/video?rid=371249757",
     description: "Премиум-контент для профессионалов"
   }, {
-    name: "🎥 Pond5 (Videodive)",
+    name: "🎥 Pond5",
     link: "https://pond5.com/artist/videodive", 
     description: "Videodive контент"
   }, {
-    name: "🎥 Pond5 (Videoton)",
+    name: "🎥 Pond5",
     link: "https://pond5.com/artist/videoton", 
     description: "Videoton контент"
   }, {
-    name: "🎥 Pond5 (Vmsartstudio619)",
+    name: "🎥 Pond5",
     link: "https://pond5.com/artist/vmsartstudio619", 
     description: "Vmsartstudio619 контент"
   }, {
@@ -47,7 +47,7 @@ const PortfolioSection = () => {
   }, {
     name: "📽 Adobe Stock",
     link: "https://stock.adobe.com/contributor/212979533/oceanmediaproject",
-    description: "(Ocean Media Project)"
+    description: "Ocean Media Project контент"
   }, {
     name: "🎬 Pixtastock",
     link: "https://creator-en.pixtastock.com/@videoton/footage",
