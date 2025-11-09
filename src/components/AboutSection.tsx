@@ -124,9 +124,9 @@ const AboutSection = () => {
             <h3 className="text-2xl font-bold mb-6 text-center">📹 FOUNDATION OF OUR VIDEO LIBRARY:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
-                <div className="flex items-center gap-3">
+                <div className="flex flex-row-reverse items-center gap-3">
                   <Fish className="h-5 w-5 text-accent" />
-                  <div>
+                  <div className="text-right flex-1">
                     <h4 className="font-bold text-primary-foreground">Underwater World</h4>
                     <p className="text-sm text-primary-foreground/80">coral reefs, unique fish and marine creatures</p>
                   </div>
@@ -134,7 +134,7 @@ const AboutSection = () => {
               </div>
               <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
                 <div className="flex items-center gap-3">
-                  <Sailboat className="h-5 w-5 text-accent" />
+                  <Sailboat className="h-5 w-5 text-primary-foreground/70" />
                   <div>
                     <h4 className="font-bold text-primary-foreground">Coastal Views</h4>
                     <p className="text-sm text-primary-foreground/80">serene water sports and yachting scenes</p>
@@ -142,9 +142,9 @@ const AboutSection = () => {
                 </div>
               </div>
               <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
-                <div className="flex items-center gap-3">
+                <div className="flex flex-row-reverse items-center gap-3">
                   <Trees className="h-5 w-5 text-accent" />
-                  <div>
+                  <div className="text-right flex-1">
                     <h4 className="font-bold text-primary-foreground">Natural Beauty</h4>
                     <p className="text-sm text-primary-foreground/80">coastlines, forests, rivers, canyons, waterfalls</p>
                   </div>
@@ -152,7 +152,7 @@ const AboutSection = () => {
               </div>
               <div className="bg-primary-foreground/10 rounded-lg p-4 border border-primary-foreground/20 hover:border-accent/50 transition-colors">
                 <div className="flex items-center gap-3">
-                  <Sparkles className="h-5 w-5 text-accent" />
+                  <Sparkles className="h-5 w-5 text-primary-foreground/70" />
                   <div>
                     <h4 className="font-bold text-primary-foreground">Unique Events</h4>
                     <p className="text-sm text-primary-foreground/80">spectacular fireworks and celebration footage</p>
